@@ -1,0 +1,160 @@
+
+body {
+    background-color: #d2ecff;
+}
+
+/*-------------Login---------------*/
+
+
+.loginBody {
+    background-image: url();
+    background-position: -5% 200%;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    margin: 30px auto;
+    }
+
+
+.loginCont {
+    height: 80%;
+    margin: auto;
+    width: 916px;
+}
+    .loginImg {
+        border: 1.5px solid white;
+        border-radius: 6px;
+        height: 530px;
+        margin:20px 0;
+        padding: 0;
+        position: relative;
+        left: 100px;
+        width: 500px;
+        
+            
+        }
+.containerL{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1.5px solid white;
+    border-radius: 6px;
+    float: right;
+    height: 350px;
+    margin: 20px 0;
+    padding: 30px;
+    padding-top: 0;
+    position: relative;
+    right: 100px;
+    top: 70px;
+    width: 350px;
+    
+    }
+.bottomLogin table {
+    
+        width: 100%;
+    
+    }
+.bottomLogin a {
+    
+    color: rgb(161, 0, 0);
+    text-decoration: none;
+    
+    }
+.bottomLogin >table td {
+       text-align: center;
+    }
+
+.containerL input {
+    border:0;
+    border-bottom: 2px solid red; 
+    height:40px;
+    margin:15px 10px 15px 0;
+    width: 100%;
+    
+    }
+.containerL label{
+    font-weight: bold;  
+    }
+       
+    
+button{
+        background-color: rgb(186, 238, 253);
+        border-radius: 13px;
+        color: grey;
+        font-size: larger;
+        height:40px;
+        margin: 5px 5px 15px 0;
+        width: 100%;
+    }
+button:hover {
+    background-color: rgb(104, 222, 255);
+        color: black;
+    }
+
+    /*-------------------------Signup------------------------*/
+
+.containerS label {
+            margin-left: 0;
+        
+        }
+        
+        
+.containerS input {
+            border:0;
+            border-bottom: 2px solid red; 
+            height:30px;
+            margin:10px 10px 10px 0;
+            width: 100%;
+        }
+.containerS{
+                border: 3px solid grey;
+                border-radius: 20px;
+                margin: auto;  
+                padding: 30px;
+                width: 300px;
+              
+                background:  rgba(255, 255, 255, 0.8);
+            }  
+           body{
+               background-image: url(images/PicsArt_07-16-01.20.29.png);
+               background-position: 0% 0%;
+               background-size: 100%;
+               background-repeat: no-repeat;
+              
+           }
+
+
+
+
+
+
+
+
+
+
+
+
+
+           @media only screen and (max-width: 916px) and (min-width:399px){
+          .loginCont {
+              width: 520px;
+              margin: auto;
+              justify-items: center;
+              
+          }
+          .containerL{
+              position: absolute;
+                 right: 20px;
+             }
+          
+             .loginImg{
+          width: 100%;
+          position: inherit;
+          margin:0;
+          
+             }
+          }
+          @media only screen and(max-width: 400px){
+              
+          .loginCont {
+              width: auto;
+          }
+          }
