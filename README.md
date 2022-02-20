@@ -27,7 +27,7 @@ The main components I made in this website are:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/SanketMuthal/eCommerce-Website)
-- Live Site URL: [GitHub Pages](https://github.com/SanketMuthal/eCommerce-Website/)
+- Live Site URL: [GitHub Pages](https://sanketmuthal.github.io/eCommerce-Website/)
 
 ### Built with
 
